@@ -23,7 +23,7 @@ jobs:
     - name: List directories
       run: ls
     - name: Restore dependencies
-      run: dotnet restore /home/runner/work/SipaaGL/SipaaGL/SipaaGL/SipaaGL.csproj
+      run: dotnet restore /home/runner/work/SiUI/SiUI/SiUI/SiUI.csproj
     - name: Build
       run: dotnet build --no-restore /home/runner/work/SiUI/SiUI/SiUI/SiUI.csproj
     - name: Publish DLL
